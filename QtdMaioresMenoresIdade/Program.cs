@@ -6,9 +6,9 @@ do
     Console.WriteLine($"Escreva a idade da pessoa {count + 1}");
     idade = int.Parse( Console.ReadLine() );
 
-    if ( idade < 1 )
+    if ( idade < 1 || idade > 117 )
     {
-        Console.WriteLine("idade zerada impossivel");
+        Console.WriteLine("idade zerada ou acima de 117 impossivel");
     }
     else
     {
